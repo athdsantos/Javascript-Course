@@ -1,0 +1,95 @@
+body {
+    background-color: lightcyan;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#cabeca {
+    font-size: 35pt;
+    text-align: center;
+    color: black;
+    text-shadow: lightskyblue 0.1em 0.1em 0.2em;
+    margin-bottom: 15px;
+}
+
+#resultCalendario {
+    border: 2px solid lightskyblue;
+    margin-top: 1px;
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#resultHoras {
+    border: 2px solid lightskyblue;
+    margin-top: 1px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: 40px;
+}
+
+#resultSistema {
+    border: 2px solid lightskyblue;
+    margin-top: 1px;
+    min-width: 50px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: 40px;
+}
+
+img {
+    max-width: 80px;
+    max-height: 80px;
+}
+
+#imgHoras {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#imgCalendario {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#imgSistema {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#imagemCalendario {
+    left: 50%;
+    top: 50%;
+}
+
+#imagemCalendario:hover,
+#imagemSistema:hover,
+#imagemHoras:hover {
+    background-color: lightgrey;
+    border-radius: 10px 19px;
+}
+
+
+#imagemHoras {
+    left: 50%;
+    top: 50%;
+}
+
+#imagemSistema {
+    left: 50%;
+    top: 50%;
+}
+
+p {
+    vertical-align: middle;
+    text-align: center;
+    justify-content: center;
+}
